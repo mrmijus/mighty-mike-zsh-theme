@@ -24,3 +24,6 @@ function virtualenv_info {
 ```bash 
 source ~/.zshrc
 ```
+
+
+NOTE: This is still a work in progress, there my be bugs. 
