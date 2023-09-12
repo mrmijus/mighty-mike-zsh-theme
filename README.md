@@ -14,6 +14,9 @@ ZSH_THEME="mighty-mike"
 alias pysrc="source ./venv/bin/activate"
 alias zsrc="source ~/.zshrc && export VIRTUAL_ENV=''"
 
+# FOR WINDOWS:
+alias activate="source ./venv/Scripts/Activate"
+
 # Function to detect in Python virtual is active
 function virtualenv_info {
 [ $VIRTUAL_ENV ] && echo '[🐍]'
